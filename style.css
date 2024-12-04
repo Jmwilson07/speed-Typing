@@ -1,0 +1,102 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.bg-container {
+    background-image: linear-gradient(to left, #690cb0, #dac0ff);
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    color: #690cb0;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.para1 {
+    color: #3e4c59;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+}
+
+span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.para2 {
+    color: #323f4b;
+}
+
+.card-container {
+    background-color: #f2ebfe;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 1px solid #9aa5b1;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn1,
+.btn2 {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn1 {
+    background-color: #690cb0;
+    color: white;
+    border: none;
+}
+
+.btn2 {
+    background-color: #ffffff;
+    color: #690cb0;
+    border: 2px solid #690cb0;
+}
+
+.btn1:hover {
+    background-color: #530996;
+}
+
+.btn2:hover {
+    background-color: #e5d8f5;
+}
+
+.para3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+#spinner {
+    display: none;
+}
